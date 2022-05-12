@@ -6,7 +6,11 @@ const DentalCare = () => {
   return (
     <div className="hero min-h-screen bg-white py-20">
       <div className="hero-content flex-col lg:flex-row">
-        <img src={treatment} className="max-w-sm rounded-lg shadow-2xl" />
+        <img
+          src={treatment}
+          className="max-w-sm rounded-lg shadow-2xl"
+          alt="treatment"
+        />
         <div>
           <h1 className="text-5xl font-bold">
             Exceptional Dental Care, on Your Terms
